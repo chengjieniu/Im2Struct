@@ -7,7 +7,7 @@ Our current release has been tested on Matlab
 #### 1. Download and compile MatConvNet(http://www.vlfeat.org/matconvnet/)
 	run matlab/vl_setupnn;   
 
-	vl_compilenn('enableGpu', true, ... 'cudaRoot', '/Developer/NVIDIA/CUDA-X', ... 'cudaMethod', 'nvcc');
+	vl_compilenn('enableGpu', true, ... 'cudaRoot', '/Developer/NVIDIA/CUDA-X.X', ... 'cudaMethod', 'nvcc');
 
  
 #### 2. Download our pre-trained model
