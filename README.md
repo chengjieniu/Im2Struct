@@ -1,7 +1,7 @@
 # Im2Struct: Recovering 3D Shape Structure from a Single RGB Image
 By Chengjie Niu, Jun Li, Kai Xu.
 
-This repository contains the pre-trained models and testing code for paper [Im2Struct: Recovering 3D Shape Structure from a Single RGB Image](https://kevinkaixu.net/papers/niu_cvpr18_im2struct.pdf).
+This repository contains the pre-trained models and testing code for recovering 3D shape structures from single RGB images.
 
    
 ## Citation
