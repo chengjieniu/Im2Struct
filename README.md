@@ -8,7 +8,9 @@ Our current release has been tested on Matlab
 #### 1. Download and compile MatConvNet(http://www.vlfeat.org/matconvnet/)
 	run matlab/vl_setupnn;   
 
-	vl_compilenn('enableGpu', true, ... 'cudaRoot', '/Developer/NVIDIA/CUDA-X.X', ... 'cudaMethod', 'nvcc');
+	vl_compilenn('enableGpu', true, ... 
+	'cudaRoot', '/Developer/NVIDIA/CUDA-X.X', ... 
+	'cudaMethod', 'nvcc');
 
  
 #### 2. Download our pre-trained model
@@ -18,6 +20,6 @@ Our current release has been tested on Matlab
 
 
 #### 3. run im2struct_demo.m
-Use im2struct_demo.m to generate shapes based on trained model. The input is an image, the output of 3D shape structure is showed in figure.
+Use im2struct_demo.m to generate 3D shape structure based on trained model. The input is an image, the output of 3D shape structure is showed in figure.
 
 
