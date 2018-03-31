@@ -19,4 +19,4 @@
 #### 3. run im2struct_test.m
 <br>
 
-*Note:*  The training code is coming soon.
+*Note: The training code is coming soon.*  
