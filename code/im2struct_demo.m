@@ -1,4 +1,4 @@
-function im2struct_test
+function im2struct_demo
 %%
 %test the Im2Struct network
 %input an image
