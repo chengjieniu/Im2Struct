@@ -3,7 +3,7 @@
 
 #### Our current release has been tested on Matlab2015b
 
-#### 1  Downloading and compile MatConvNet(http://www.vlfeat.org/matconvnet/)
+#### 1  Download and compile MatConvNet(http://www.vlfeat.org/matconvnet/)
 	run matlab/vl_setupnn;   
 
 	vl_compilenn('enableGpu', true, ... 'cudaRoot', '/Developer/NVIDIA/CUDA-7.5', ... 'cudaMethod', 'nvcc');
