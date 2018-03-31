@@ -1,4 +1,4 @@
-function draw3dOBB_v2(p, col)
+function draw3DOBB(p, col)
 %draw obbs
 center = p(1:3);
 lengths = p(4:6);
