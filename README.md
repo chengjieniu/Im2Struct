@@ -1,4 +1,5 @@
-# Im2Struct
+# Im2Struct: Recovering 3D Shape Structure from a Single RGB Image
+####Chengjie Niu, Jun Li, Kai Xu. In CVPR, 2018 
 ##  Guide:
 
 #### Our current release has been tested on Matlab2015b
@@ -16,3 +17,5 @@
 
 
 #### 3. run im2struct_test.m
+<br>
+*Note: The training code is coming soon.*
