@@ -14,7 +14,7 @@ for ii =1:length(genshapes)
     
     for jj = 1:size(recover_boxes,2)
         p = recover_boxes(:,jj);
-        draw3dOBB_v2(p,'r');
+        draw3DOBB(p,'r');
     end
       
 end
