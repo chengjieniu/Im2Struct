@@ -12,7 +12,7 @@ for ii =1:length(genshapes)
     zlabel ( '--Z axis--' )
     hold on;
         
-    view(150,60);
+    view(145,-30);
     for jj = 1:size(recover_boxes,2)
         p = recover_boxes(:,jj);
         draw3DOBB(p,'r');
