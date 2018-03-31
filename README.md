@@ -3,13 +3,13 @@
 This repository contains the pre-trained models and testing code for Recovering 3D Shape Structure from a Single RGB Image.
 
 > @inProceedings{niu_cvpr18,
-  title={Im2Struct: Recovering 3D Shape Structure from a Single RGB Image},
-  author = {Chengjie Niu
-  and Jun Li
-  and Kai Xu},
-  booktitle={Computer Vision and Pattern Regognition (CVPR)},
-  year={2018}
-}
+> 	title={Im2Struct: Recovering 3D Shape Structure from a Single RGB Image},
+> 	author = {Chengjie Niu
+> 	and Jun Li
+> 	and Kai Xu},
+> 	booktitle={Computer Vision and Pattern Regognition (CVPR)},
+> 	year={2018}
+> }
 
 ##  Guide:
 
