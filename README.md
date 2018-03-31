@@ -30,7 +30,7 @@ Our current release has been tested on Matlab 2015b
  
 #### 2. Download our pre-trained model
 
-Please download the pre-trained model according to discription in model/download.txt.
+Please download the pre-trained model according to the discription in model/download.txt.
 
 #### 3. run im2struct_demo.m
 Use im2struct_demo.m to recover 3D shape structure from an single RGB image with our pre-trained model. The recovered 3D shape structures can be visulized in Matlab.
