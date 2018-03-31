@@ -1,8 +1,4 @@
 function im2struct_demo
-%%
-%test the Im2Struct network
-%input an image
-%the result will be showed in figure
 
 %load structure masking network and recursive structure recovery network
 load('model\net_m.mat');
