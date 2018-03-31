@@ -2,7 +2,7 @@
 #### Chengjie Niu, Jun Li, Kai Xu. In CVPR, 2018 
 ##  Guide:
 
-#### Our current release has been tested on Matlab2015b
+Our current release has been tested on Matlab2015b
 
 #### 1. Download and compile MatConvNet(http://www.vlfeat.org/matconvnet/)
 	run matlab/vl_setupnn;   
@@ -17,6 +17,3 @@
 
 
 #### 3. run im2struct_test.m
-<br>
-
-*Note: The training code is coming soon.*  
