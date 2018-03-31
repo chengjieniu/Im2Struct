@@ -35,7 +35,11 @@ Our current release has been tested on Matlab
 
 #### 3. run im2struct_demo.m
 Use im2struct_demo.m to generate 3D shape structure based on trained model. The input is an image, the output of 3D shape structure is showed in figure.  
-The output of 3D shape structure (example_1,example_2,example_3) should look as follows.  
- ![Alt text](/path/to/img.jpg)
+The output of 3D shape structure (example_1, example_2, example_3) should look as follows.  
+![Alt text](https://github.com/chengjieniu/Im2Struct/raw/master/image_show/1.png)
+![Alt text](https://github.com/chengjieniu/Im2Struct/raw/master/image_show/2.png)
+![Alt text](https://github.com/chengjieniu/Im2Struct/raw/master/image_show/3.png)
+  
+  
 
 
