@@ -39,8 +39,9 @@ The recovered 3D shape structures for example images(data/example_1/2/3.jpg) sho
   
   
 ![Alt text](https://github.com/chengjieniu/Im2Struct/raw/master/data/example_1.jpg)
+![Alt text](https://github.com/chengjieniu/Im2Struct/raw/master/data/example_1.jpg)  
+  
 ![Alt text](https://github.com/chengjieniu/Im2Struct/raw/master/image_show/1.png)
-![Alt text](https://github.com/chengjieniu/Im2Struct/raw/master/data/example_2.jpg)
 ![Alt text](https://github.com/chengjieniu/Im2Struct/raw/master/image_show/2.png)
 
   
