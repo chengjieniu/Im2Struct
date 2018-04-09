@@ -37,8 +37,7 @@ Run im2struct_demo.m to recover 3D shape structure from an single RGB image with
 
 The recovered 3D shape structures for example images(data/example_1/2/3.jpg) should look as follows:    
   
-
-  
+    
 ![Alt text](https://github.com/chengjieniu/Im2Struct/raw/master/data/example_1.jpg)
 ![Alt text](https://github.com/chengjieniu/Im2Struct/raw/master/data/example_2.jpg)    
 ![Alt text](https://github.com/chengjieniu/Im2Struct/raw/master/image_show/1.png)
