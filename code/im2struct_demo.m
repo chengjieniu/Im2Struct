@@ -1,11 +1,16 @@
 function im2struct_demo
 
 %load structure masking network and recursive structure recovery network
-load('model\net_m.mat');
+load('model\net_m_chair.mat');
 net_m=dagnn.DagNN.loadobj(net_m);
 net_m.mode = 'test';
-load('model\net_v.mat');
+load('model\net_v_chair.mat');
 net_v=dagnn.DagNN.loadobj(net_v);
+
+% for ii=1:54
+%     net_m.params(ii).value=gpuArray( net_m.params(ii).value);
+% end
+
 vae_theta=net_v.meta.vae_theta;
 net_v.mode = 'test';
 
@@ -19,6 +24,12 @@ im_ = gpuArray(im_);
 %get the feature map of the maskingnetwork
 inputs = {'input', im_, 'input2', im_} ;
 net_m.eval(inputs);
+
+% if isnan(net_m.getVarIndex('feature'))
+%     mask_feature = net_m.vars(net_m.getVarIndex('x63')).value;
+% else
+%     mask_feature = net_m.vars(net_m.getVarIndex('feature')).value;
+% end
 mask_feature = net_m.vars(net_m.getVarIndex('feature')).value;
 
 %get the 80D fused feature
