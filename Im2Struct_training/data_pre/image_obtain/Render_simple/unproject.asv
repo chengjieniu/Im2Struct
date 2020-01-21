@@ -1,0 +1,26 @@
+returnl
+width = 1024;
+height = 1024;
+
+depth = zeros(size(in));
+for i = 0:width
+    for j = 0:height
+        depth((height-1-j)*width+i) = in(i*height+j);
+    end
+end
+
+depth = 1-depth;
+
+load(unpro.mat);
+
+p3d = zeros(height,width,1,'single');
+for winy = height-1:-1:0
+    for winx = 0:width-1
+        winz = depth(winy*width+winx);
+        if (winz>0 && winz < 1)
+            p = [winx, winy+1,winz];
+            p3d(winx+1,height-winy) = p*unpro;
+        end
+
+    end
+end
